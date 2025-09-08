@@ -1,0 +1,13 @@
+#first-heading{
+    color: blue;
+}
+.second-heading{
+    color: green;
+    font-size: 30px;
+}
+:root{
+   --text-color:brown; 
+}
+li{
+    color: var(--text-color);
+}

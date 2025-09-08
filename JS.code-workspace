@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../JS"
+		},
+		{
+			"path": "../pyth"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Html"
+	}
+}

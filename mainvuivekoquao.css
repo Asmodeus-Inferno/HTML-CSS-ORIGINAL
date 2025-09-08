@@ -1,0 +1,12 @@
+:root{
+    --tex-c:blue;
+    --tex-x:brown;
+}
+h1{
+    color: var(--tex-c);
+    color: red;
+}
+p{
+    color: var(--tex-c);
+    
+}

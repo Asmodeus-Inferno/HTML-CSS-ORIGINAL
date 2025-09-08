@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>T-Shop</title>
+      <meta charset="utf-8">
+      <style>
+        html, body{
+            margin: 0;
+        }
+        .box {
+            width: calc(80%+20%); /*thao tác cộng trừ nhân chia*/
+            height: 100px;
+            background: rgb(190,124,157);
+        }
+        .box:active{
+            background-color: black;
+        }
+        h1:hover{
+            color: red;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: red;
+            font-size: 40px;
+        }
+      </style>
+    </head>
+
+    <body>
+        <div class="box" data-title="đây là box màu hồng!"></div>
+        
+        <h1>CSS pseudo-classes</h1>
+        <ul>
+            <li>:hover</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ul>
+    </body>
+</html>

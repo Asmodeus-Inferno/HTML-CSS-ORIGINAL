@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>T-Shop</title>
+      <meta charset="utf-8">
+      <style>
+        html, body{
+            margin: 0;
+        }
+        .header{
+            width: 100%;
+            height: 100vh;
+            background-image: url(toan.jpg); /*dải màu trong suốt vd (0,rgba(255,255,0,0.5),rgba(0,0,255,0.5)  nó dùng với ảnh) 
+             /* background-size: 100px; có thêm auto( có thể điền thông số vào các vị trí),contain(ngược lại với cover và chấp nhận chứa khoản trắng ),cover(chấp nhận che bức ảnh khi điều chỉnh kích thước web) */
+             background-repeat:no-repeat ; /*repeat-x: ngang,repeat-y: dọc */
+             box-sizing: border-box;
+             background-size: 200px;
+             background-position: bottom center;/*có thể điền số*/
+             background-position: top 20% right 20%;
+             background-position: 30px 50px;/*ngang dọc*/
+             background-position:-50px -100px; /* trái lên,dương thì:phải dưới*/
+             
+        }
+        
+      </style>
+    </head>
+
+    <body>
+        <div class="header"></div>
+    </body>
+</html>

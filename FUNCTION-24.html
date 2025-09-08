@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>T-Shop</title>
+      <meta charset="utf-8">
+      <style>
+        html, body{
+            margin: 0;
+        }
+        .box {
+            width: calc(80%+20%); /*thao tác cộng trừ nhân chia*/
+            height: 100px;
+            background: rgb(190,124,157);
+        }
+        .box::after{
+          content: attr(data-title);
+        }
+        a::after{
+            content: "("attr(href)")";
+        }
+      </style>
+    </head>
+
+    <body>
+        <div class="box" data-title="đây là box màu hồng!"></div>
+        <a href="https://i.pinimg.com/736x/f5/35/6b/f5356b31a8c93a146a5afdd27f27c05c.jpg"> ảnh đẹp</a>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr()</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.container{
+    height: 300px;
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+  
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
+.A{
+    background-color:chartreuse;
+   order: 2;
+}
+.B{
+    background-color: aquamarine;
+    order: 3;
+}
+.C{
+    background-color: bisque;
+    order: 1;
+}

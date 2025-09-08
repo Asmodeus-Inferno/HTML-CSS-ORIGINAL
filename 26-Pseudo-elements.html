@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <title>T-Shop</title>
+      <meta charset="utf-8">
+      <style>
+        html, body{
+            margin: 0;
+        }
+        .box {
+            width: calc(80%+20%); /*thao tác cộng trừ nhân chia*/
+            height: 100px;
+            background: rgb(190,124,157);
+        }
+        .box::before{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+        }
+        .box::after{
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+        }
+        h1::first-letter{
+            font-size: 50px;
+        }
+        h1::first-line{
+            color: red;
+        }
+        h1::selection{
+           background-color: violet; /*bỏ h1 thì nó sẽ áp dụng cho all */
+           color: white;
+        }
+      </style>
+    </head>
+
+    <body>
+        <div class="box"></div>
+        
+        <h1>CSS pseudo-elements<br/> Dòng thứ 2 </h1>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+        </ul>
+    </body>
+</html>

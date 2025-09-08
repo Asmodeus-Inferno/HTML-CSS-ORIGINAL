@@ -1,0 +1,52 @@
+.nav {
+  display: flex;
+  width: 100%;
+  background: #ddd;
+  padding: 10px;
+  gap: 10px;
+}
+
+.tab {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Mỗi tab 1 kiểu flex */
+.tab1 {
+  flex: 1;
+  background: #007acc;
+}
+
+.tab2 {
+  flex: auto;
+  background: #28a745;
+}
+
+.tab3 {
+  flex: none;
+  width: 120px;
+  background: #dc3545;
+}
+
+.tab4 {
+  flex: 0 0 100px;
+  background: #6f42c1;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+  background: #eee;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: steelblue;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin: 5px;
+}
